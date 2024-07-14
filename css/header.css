@@ -1,0 +1,77 @@
+header{
+    background-image: url(../imges/watch-table-background_811396-7552.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment:fixed ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-inline: 7px;
+}
+nav a{
+    color: white;
+    padding: 5px 7px;
+    font-size: large;
+    text-decoration: none;
+}
+nav a:hover{
+    border-bottom:1px solid ;
+    color: rgb(202, 202, 202);
+}
+.time{
+    margin-top: 10px;
+    text-align: center;
+}
+.time h1{
+    color: white;
+    border: 2px solid;
+    border-bottom: 4px solid;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 80px 10px;
+    background-color: rgba(0, 0, 0, 0.651);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 0px 1px ;
+}
+.time button{
+    display: block;
+    margin-inline: auto;
+    margin-top: 15px;
+    color: white;
+    border-top: 1px solid;
+    border-bottom: 1px solid;    padding: 3px 5px ;
+    font-size: 0.8rem;
+    transition: 0.3s ease-out;
+}
+.time button:hover{
+    border-radius: 20px;
+    border: 1px solid ;
+    background-color: black;
+}
+.time h4{
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+@media (width < 600px){
+    
+    header{
+        background-position: right;
+    }
+    nav a{
+        font-size: small;
+    }
+    .time button{
+        font-size: 0.6rem;
+    }
+
+}
